@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div {
+        border: 1px solid #000000;
+        border-radius: 0px 40px 0px 40px;
+        padding: 10px;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0%;
+    }
+
+    li::before {
+        content: url(pictures/c.jpg);
+    }
+
+    li>img {
+        display: none;
+    }
+
+    li>a {
+        cursor: pointer;
+
+    }
+
+
+    a {
+        position: relative;
+    }
+
+    li a img {
+        display: none;
+        position: absolute;
+        right: -20px;
+        top: 0px;
+    }
+
+    li a:hover img {
+        display: block;
+    }
+</style>
+
+<body>
+    <h1>Форматы файлов</h1>
+    <div>
+
+        <p>
+            .DOC или .dос (от англ. <img src="pictures/e.png">
+            <a href=""> Document</a> ) - расширение имени файла, исползуемое для файлов,
+            представляющих текст, с разметкой или без. Расширение .DOC часто использовалось для
+            обозначения простых текстовых файлов без формирования, однако позже стало
+            использоваться для двоичных форматов с разметкой. <br>
+
+            <a href="">Документ MS Word <img src="pictures/b.jpg" alt=""> </a>
+        </p>
+    </div>
+    <div>
+        <p>
+            Portable Document Format(<img src="pictures/e.png"> <a href="">PDF</a> - межплатформенный формат электронных
+            документов;
+            разработанный фирмой Adobe Systems с использованием ряда возможностей языка
+            Postscript. <br>
+            <a href="">Документ PDF <img src="pictures/d.png" alt=""></a>
+        </p>
+    </div>
+    <div>
+        <p>
+            ZIP - популярный формат сжатия данных и архивации файлов. Файл в этом формате
+            обычно имеет расширение <img src="pictures/e.png">
+            <a href=""> .zip</a> и хранит в сжатом или несжатом виде один или несколько
+            файлов, которое можно из него извлечь путем распаковки с помощью специальной
+            программы. <br>
+            <a href="">Архив <img src="pictures/f.gif" alt=""></a>
+    </div>
+    <h2>Это список файлов</h2>
+    <ul>
+        <li><a href="">Документ MS Word<img src="pictures/b.jpg"></a></li>
+        <li><a href="">Документ PDF<img src="pictures/d.png"></a></li>
+        <li><a href="">Архив<img src="pictures/f.gif"></a></li>
+    </ul>
+</body>
+
+</html>
